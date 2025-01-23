@@ -8,13 +8,13 @@ export function CardsView({items}) {
     })
 
 return(
-    <div ClassName="container">
+    <div className="container">
        <>{shopCard}</>
     </div>
  
 )
 }
-/*То есть CardsView отображает много карточек ShopCard. На один товар — одна карточка ShopCard.*/
+
 
 
 
