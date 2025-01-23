@@ -11,10 +11,11 @@ const [isIcon, setIsIcon] = React.useState("view_list");
   
 
 return (
-    <div className ="cards">
-    < IconSwitch icon={isIcon} onSwitch={() => setIsIcon(isIcon)}/>  
-    { isIcon === "view_list" ? <ListView/> : <CardsView/> }
-    < CardsView items = {products}/>
+<div className ="cards">
+      < IconSwitch icon={isIcon} onSwitch={() => setIsIcon(isIcon)}/>  
+       { isIcon === "view_list" ? <ListView/> : <CardsView/> }
+      < CardsView items = {products}/>
     </div>
+
 )
 }

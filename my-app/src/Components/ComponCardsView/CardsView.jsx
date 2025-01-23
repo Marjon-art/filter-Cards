@@ -8,9 +8,10 @@ export function CardsView({items}) {
     })
 
 return(
-    <div className="container">
-       <>{shopCard}</>
+    <div className="container container_cards">
+      <>{shopCard}</>
     </div>
+
  
 )
 }

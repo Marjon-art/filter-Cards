@@ -28,7 +28,10 @@
     margin-left: 10px;
    
 }
-
+ 
+img {
+    width: 100%;
+}
 .cards_title {
     text-align: center;
 }
