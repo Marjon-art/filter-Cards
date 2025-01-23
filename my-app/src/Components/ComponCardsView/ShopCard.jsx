@@ -8,7 +8,7 @@ export const ShopCard = (item) => {
               <h1>{item.item.name}</h1>
               <p>{item.item.color}</p>
               <div className="cards_img">
-                  <img src={item.item.img}/>
+              <img src={item.item.img}/>
               </div>
           </div>
      </div>

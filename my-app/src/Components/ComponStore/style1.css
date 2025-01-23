@@ -24,13 +24,10 @@
     transition: 0.2s;
     bottom: 20px;
 }
-.cards_img {
-    margin-left: 10px;
-   
-}
+
  
-img {
-    width: 100%;
+.cards_img img {
+    width: 250px;
 }
 .cards_title {
     text-align: center;
