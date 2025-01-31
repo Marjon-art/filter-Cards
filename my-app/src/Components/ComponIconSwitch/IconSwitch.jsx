@@ -3,10 +3,8 @@ import React from "react";
 
 export function IconSwitch({icon, onSwitch}) {
    return (
-<div className="material-icons"> 
-   {icon}
-</div>
-   )
+   <div className="material-icons" onClick={() => icon === "view_list" ? onSwitch(icon) : ""}>{icon}</div>
+)
 }
 
 
@@ -26,5 +24,3 @@ export function IconSwitch({icon, onSwitch}) {
 
 
 
-
-/*из компонента Store передать правильную иконку в свойство icon компонента IconSwitch*/
