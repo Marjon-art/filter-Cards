@@ -1,7 +1,7 @@
 
 export const ShopItem = (item) => {
 return (
-   <div className="card">
+   <div className="card-2">
        <img src={item.item.img}/>
        <div className="card_title">{item.item.name}</div>
        <div className="card_text">{item.item.color}</div>
